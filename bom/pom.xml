@@ -14,7 +14,7 @@
   <!-- Exchange demands a name for deployment -->
   <name>solutions-bom</name>
   <!-- Exchange NON-SNAPSHOT version for deployment -->
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   
   <packaging>pom</packaging>
   <!-- IMPORTANT: Due to a limitation in MUnit, this file must be installed into the local Maven repo after every change: -->
@@ -101,7 +101,7 @@
     <student.deployment.ap.orgid>7e8f60f2-158f-4c53-aab4-d8bd7bf8cb7d</student.deployment.ap.orgid>
     <aa.exchange.repo.id>anypoint-exchange-${aa.ap.orgid}</aa.exchange.repo.id>
     <!-- library-style Mule plugins -->
-    <apps-commons.version>1.0.0-SNAPSHOT</apps-commons.version>
+    <apps-commons.version>1.0.0</apps-commons.version>
     
     <!-- Mule extensions/modules/connectors -->
     

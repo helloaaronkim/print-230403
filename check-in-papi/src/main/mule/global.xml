@@ -62,19 +62,19 @@ http://www.mulesoft.org/schema/mule/pay-pal-sapi http://www.mulesoft.org/schema/
 		property_host="tngaa-flights-management-sapi-dev-9yj2rh.rajrd4-2.usa-e1.cloudhub.io"
 		property_basePath="/api/v1"
 		property_username="e66105d66e8b4520b091127620221cce"
-		property_password="A1c099D51C50420b84641D71b229EBac" />
+		property_password="A1c099D51C50420b84641D71b229EBac" property_responseTimeout="3000" />
 
 	<passenger-data-sapi:config
 		name="passengerDataSapiConfig"
 		property_host="tngaa-passenger-data-sapi-dev-9yj2rh.rajrd4-2.usa-e1.cloudhub.io"
 		property_basePath="/api/v1"
 		property_username="e66105d66e8b4520b091127620221cce"
-		property_password="A1c099D51C50420b84641D71b229EBac" />
+		property_password="A1c099D51C50420b84641D71b229EBac" property_responseTimeout="3000" />
 
 	<pay-pal-sapi:config name="paypalSapiConfig"
 		property_host="tngaa-paypal-sapi-dev-9yj2rh.rajrd4-2.usa-e1.cloudhub.io"
 		property_basePath="/api/v1"
 		property_username="e66105d66e8b4520b091127620221cce"
-		property_password="A1c099D51C50420b84641D71b229EBac" />
+		property_password="A1c099D51C50420b84641D71b229EBac" property_responseTimeout="3000" />
 
 </mule>

@@ -8,3 +8,6 @@
   * Exchange viewer
     * client id : c882f6ef229a4a0ab94fbe2d2e41cb88
     * client secret : 51838cbC74954A3eB0EBc7e8ba4a2e0E
+  * Exchange Contributor
+    * client id : f079182de8a14d84a44f6de8ae458974
+    * client secret : 9E346F23eb0041c9840FDaF851b80E9F
